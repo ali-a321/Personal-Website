@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <title>Ali Abdalla | Personal Website </title>
+</head>
+<body>
+    <div class="headerContainer"  id="home"> 
+        <div class="firstSection"> 
+            <div class="titleContainer">
+                <div class="name"> Ali  </div> 
+                <div class="sname">  Abdalla </div>
+                <div class="role"> <strong> </strong> </div>
+                <div class="srole"> <strong>  </strong> </div>
+            </div>
+            <div class="patternContainer"> 
+                <img src="./images/wave.png" alt="Gray geometric pattern" class="pattern">
+            </div>
+        </div>
+    </div>
+    <div class="stickyBar"> 
+        <div class="linkContainer"> 
+            <button class="headingBtn"> <a href="#home" class="headingTtl"> Home </a> </button>
+            <div class="links">
+               
+                <button class="headingBtn"> <a href="#about" class="headingTxt"> About </a> </button>
+                <button class="headingBtn"> <a href="#projects" class="headingTxt"> Projects </a> </button>
+                <button class="headingBtn"> <a href="#contact" class="headingTxt"> Contact </a> </button>
+            </div>
+        </div>
+    </div>
+    <div class="secondSection" id="about"> 
+        <div class="aboutHeading"> About me  </div>
+        <div class="aboutText"> 
+            Hi! I'm currently completing my CPA PREP courses at Thompson Rivers University and hold an Honours Bachelor of Science Degree from York University.
+            <br> 
+            I'm expected to finish all the requried CPA required courses in Winter 2025 and intend to begin the CPA PEP program in Summer 2025.  
+            <br>
+            I have also completed an online curriculum for coding named the "Odin Project" which has enabled me to acquire a range of coding technical skills that can be transferrable in many areas. Demo videos of some of my websites are shown below.
+            <br>
+            With a diverse skill set and willingness to learn, I am confident in my ability to contribute value. I am a quick learner and a problem solver which make me a great team player. 
+            <br>
+            I also enjoy other activities like going to the gym and playing ultimate frisbee to stay healthy. 
+
+        </div>
+        <div class="imageContainer">      
+            <div class="colone"> 
+                <div class="iconName">
+                    <img src="./images/excel.png" alt="excel" class="icons">
+                    EXCEL
+                </div> 
+                <div class="iconName">
+                    <img src="./images/html.png" alt="html" class="icons">
+                    HTML 
+                </div> 
+                <div class="iconName">
+                <img src="./images/javascript.svg" alt="javascript" class="icons">
+                JAVASCRIPT
+                </div> 
+            </div>
+            <div class="coltwo"> 
+                <div class="iconName">
+                <img src="./images/react.png" alt="react" class="icons">
+                REACT
+                </div> 
+                <div class="iconName">
+                <img src="./images/node.png" alt="node" class="icons">
+                NODEJS
+                </div> 
+                <div class="iconName">
+                <img src="./images/mongo.svg" alt="mongodb" class="icons">
+                MONGODB
+                </div> 
+            </div>
+            <div class="colthree">
+                <div class="iconName">
+                    <img src="./images/mysql.png" alt="mysql" class="icons">
+                    MySQL
+                    </div>
+                    <div class="iconName">
+                        <img src="./images/css.svg" alt="css" class="icons">
+                        CSS
+                    </div> 
+                    <div class="iconName">
+                        <img src="./images/expressjs.png" alt="expressjs" class="icons">
+                        EXPRESS
+                    </div>
+                
+            </div>
+             <div class="colthree">
+          
+                <div class="iconName">
+                    <img src="./images/webpack.png" alt="webpack" class="icons">
+                    WEBPACK
+                    </div> 
+                    <div class="iconName">
+                    <img src="./images/npm.png" alt="npm" class="icons">
+                    NPM
+                    </div>
+                <div class="iconName">
+                    <img src="./images/git.png" alt="git" class="icons">
+                    GIT
+                </div> 
+               
+            </div>
+        </div>
+    </div>
+    
+    <div class="thirdSection"  id="projects"> 
+        <div class="projectsTitle">  </div>
+        <div class="projects"> 
+            <div>
+                <div class="projectName">  CoinCanvas - Crypto Portfolio Tracking Site </div>
+                <div class="projectDescription"> This crypto portfolio tracking platform allows logged-in users to search, add, and remove cryptocurrencies from their portfolios. Once added, users can document each coin's transaction history, purchase price, quantity, total cost, and date of acquisition. The interface enables users to edit and delete transactions. The user dashboard showcases total portfolio value, gain/loss, USD holdings, coin quantities, and percentage changes over the past day. It also includes an interactive line graph illustrating portfolio performance across yearly, monthly, and weekly intervals, along with a pie chart representing holding distribution. To enhance usability, users can sort their coin holdings based on USD value in ascending or descending order. Built using React, Node.js, Express, and MySQL.
+                 </div>
+                <div class="btnContainer">
+                    <button class="btnRedirect"> <a href="https://github.com/ali-a321/CoinCanvas" target="_blank"> Github Link </a> </button>
+                </div>
+            </div>
+           
+            <div class="projectDemo"> 
+                <video controls muted class="videoplay">
+                    <source src="./videos/CoinCanvas.mp4" type="video/mp4">
+                </video>    
+            </div>            
+        </div>
+
+     <div class="projects"> 
+            <div>
+                <div class="projectName">  Burger Bliss - Burger Website/Admin Panel  </div>
+                <div class="projectDescription"> Burger website serving both customers and employees. For customers, the site features a 'Contact Us' form for valuable feedback, along with a user-friendly cart management system that allows for addition and removal of food items and item counts. During the checkout process, customers can review their selections, prices, and provide essential details via a checkout form. After submitting their order, customers receive a confirmation email with order specifics. On the admin and employee side, the system ensures instant notifications through websockets when orders are placed. The admin panel is secured by JWT authentication. The live order notification feature eliminates the need for manual refreshes, ensuring practicality. Admins and employees can also easily maintain an updated menu and food categories. They also have access to customer feedback. Built with React, CSS, Node.js, Express, and MySQL.
+                </div>
+                
+                <div class="btnContainer">
+                    <button class="btnRedirect"> <a href="https://github.com/ali-a321/Burger-Bliss" target="_blank"> Github Link </a> </button>
+                </div>
+            </div>
+          
+            <div class="projectDemo">
+                <video controls muted class="videoplay" >
+                    <source src="./videos/Burgerbliss.mp4" type="video/mp4">
+                  </video>         
+            </div>
+        </div>
+     
+        
+        <div class="projects" > 
+            <div> 
+                <div class="projectName">  Dental Site - Dental Glow   </div>
+                <div class="projectDescription"> Created a dental website with the focus on website design and UI, ensuring an optimal user experience on all devices. It includes a feedback and message form, Google Maps embed, and CSS transitions such as fading in elements when they become visible and sliding elements into view with a smooth animation.  </div>
+                <div class="btnContainer">
+                    <button class="btnRedirect"> <a href="https://github.com/ali-a321/Dental-Site-Dental-Glow-" target="_blank"> Github Link </a> </button>
+                </div>
+            </div>
+            <div class="projectDemo"> 
+                <video controls muted class="videoplay" >
+                    <source src="./videos/dentalSiteDemo.mp4" type="video/mp4">
+                </video> 
+
+            </div>
+        
+        </div>     
+    </div>
+
+    <div class="fourthSection"  id="contact"> 
+        <div class="projectsTitle" >  </div>
+        <div class="action"> Reach Out </div>
+        <div class="mail">  <a href="mailto:a1i86@outlook.com"> Email me at: </a> a1i86@outlook.com</div>
+    </div>
+    <div class="footer"> 
+        <a href="#home" class="backTop"> Back to top </a>
+        <a href="https://github.com/ali-a321" target="_blank"> 
+            <img src="./images/gitlogo.svg" class="smallPics"/>
+        </a>
+        <a href="mailto:a1i86@outlook.com">
+
+            <img src="./images/emaillogo.svg" class="smallPics"/>
+        </a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
